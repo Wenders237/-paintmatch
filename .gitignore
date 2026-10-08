@@ -1,0 +1,19 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/db.sqlite3
+backend/.env
+backend/staticfiles/
+backend/media/
+backend/logs/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite-cache/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Bonjour {{ painter_name }},</h2>
+<p>Vous avez reçu une nouvelle demande de devis !</p>
+<div class="card">
+  <p><strong>Client :</strong> {{ client_name }}</p>
+  <p><strong>Travaux :</strong> {{ title }}</p>
+  <p><strong>Lieu :</strong> {{ location }}</p>
+  {% if description %}<p><strong>Description :</strong> {{ description }}</p>{% endif %}
+</div>
+<p>Connectez-vous à PaintMatch pour consulter la demande et rédiger votre devis.</p>
+<a href="{{ app_url }}/painter/quotes" class="btn">Voir la demande</a>
+{% endblock %}

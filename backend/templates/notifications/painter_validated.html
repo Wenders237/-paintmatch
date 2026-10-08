@@ -1,0 +1,12 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Félicitations {{ painter_name }} ! 🎉</h2>
+<p>Votre profil professionnel a été <strong>validé</strong> par notre équipe.</p>
+<p>Vous êtes maintenant visible sur la plateforme et pouvez recevoir des demandes de devis de clients partout au Cameroun.</p>
+<div class="card">
+  <p>✅ Profil visible publiquement</p>
+  <p>✅ Réception des demandes de devis</p>
+  <p>✅ Accès à toutes les fonctionnalités</p>
+</div>
+<a href="{{ app_url }}/painter/profile" class="btn">Compléter mon profil</a>
+{% endblock %}

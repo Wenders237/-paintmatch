@@ -1,0 +1,11 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Bonjour {{ client_name }},</h2>
+<p>Bonne nouvelle ! <strong>{{ painter_name }}</strong> vous a envoyé un devis.</p>
+<div class="card">
+  <p><strong>Travaux :</strong> {{ title }}</p>
+  <p><strong>Montant total :</strong> {{ amount|floatformat:0 }} FCFA</p>
+</div>
+<p>Consultez le devis et acceptez-le pour confirmer votre réservation.</p>
+<a href="{{ app_url }}/client/quotes" class="btn">Voir le devis</a>
+{% endblock %}

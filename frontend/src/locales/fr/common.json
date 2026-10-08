@@ -1,0 +1,63 @@
+{
+  "app_name": "PaintMatch",
+  "tagline": "Trouvez votre peintre qualifié en quelques clics",
+  "loading": "Chargement...",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "back": "Retour",
+  "next": "Suivant",
+  "previous": "Précédent",
+  "search": "Rechercher",
+  "filter": "Filtrer",
+  "results": "résultats",
+  "no_results": "Aucun résultat trouvé",
+  "see_more": "Voir plus",
+  "see_all": "Voir tout",
+  "close": "Fermer",
+  "yes": "Oui",
+  "no": "Non",
+  "required": "Obligatoire",
+  "optional": "Optionnel",
+
+  "nav": {
+    "home": "Accueil",
+    "painters": "Peintres",
+    "how_it_works": "Comment ça marche",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "dashboard": "Tableau de bord",
+    "profile": "Mon profil",
+    "logout": "Se déconnecter",
+    "my_quotes": "Mes devis",
+    "my_bookings": "Mes réservations",
+    "my_works": "Mes travaux",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "admin": "Administration"
+  },
+
+  "roles": {
+    "CLIENT": "Client",
+    "PEINTRE": "Peintre",
+    "ADMIN": "Administrateur"
+  },
+
+  "validation_status": {
+    "EN_ATTENTE": "En attente de validation",
+    "VALIDE": "Profil validé",
+    "REFUSE": "Profil refusé",
+    "SUSPENDU": "Compte suspendu",
+    "COMPLEMENT": "Informations complémentaires demandées"
+  },
+
+  "footer": {
+    "rights": "Tous droits réservés",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "about": "À propos"
+  }
+}

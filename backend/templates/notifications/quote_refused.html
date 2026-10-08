@@ -1,0 +1,8 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Bonjour {{ painter_name }},</h2>
+<p><strong>{{ client_name }}</strong> a refusé votre devis pour les travaux : <strong>{{ title }}</strong>.</p>
+{% if note %}<div class="card"><p><strong>Motif :</strong> {{ note }}</p></div>{% endif %}
+<p>Vous pouvez contacter le client pour discuter et proposer un nouveau devis.</p>
+<a href="{{ app_url }}/messages" class="btn">Contacter le client</a>
+{% endblock %}

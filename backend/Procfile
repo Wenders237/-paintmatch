@@ -1,0 +1,1 @@
+web: gunicorn paintmatch.wsgi:application

@@ -1,0 +1,16 @@
+{
+  "required": "Ce champ est obligatoire.",
+  "invalid_email": "Adresse e-mail invalide.",
+  "password_min": "Le mot de passe doit contenir au moins 8 caractères.",
+  "password_mismatch": "Les mots de passe ne correspondent pas.",
+  "email_taken": "Cette adresse e-mail est déjà utilisée.",
+  "invalid_credentials": "E-mail ou mot de passe incorrect.",
+  "account_inactive": "Votre compte a été désactivé. Contactez le support.",
+  "network_error": "Erreur réseau. Vérifiez votre connexion internet.",
+  "server_error": "Une erreur serveur est survenue. Veuillez réessayer.",
+  "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action.",
+  "not_found": "La ressource demandée est introuvable.",
+  "session_expired": "Votre session a expiré. Veuillez vous reconnecter.",
+  "upload_size": "Le fichier dépasse la taille maximale autorisée (5 Mo).",
+  "upload_type": "Type de fichier non autorisé. Formats acceptés : PDF, JPEG, PNG."
+}

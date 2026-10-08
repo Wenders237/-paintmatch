@@ -1,0 +1,9 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Bonjour {{ recipient_name }},</h2>
+<p>Vous avez reçu un nouveau message de <strong>{{ sender_name }}</strong>.</p>
+<div class="card">
+  <p><em>"{{ preview }}"</em></p>
+</div>
+<a href="{{ app_url }}/messages" class="btn">Lire le message</a>
+{% endblock %}

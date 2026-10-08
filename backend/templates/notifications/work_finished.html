@@ -1,0 +1,7 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Bonjour {{ client_name }},</h2>
+<p><strong>{{ painter_name }}</strong> a déclaré vos travaux terminés !</p>
+<p>Connectez-vous pour confirmer la fin des travaux, payer le solde et laisser votre évaluation.</p>
+<a href="{{ app_url }}/client/bookings" class="btn">Confirmer et évaluer</a>
+{% endblock %}

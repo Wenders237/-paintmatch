@@ -1,0 +1,63 @@
+{
+  "app_name": "PaintMatch",
+  "tagline": "Find your qualified painter in just a few clicks",
+  "loading": "Loading...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "edit": "Edit",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "search": "Search",
+  "filter": "Filter",
+  "results": "results",
+  "no_results": "No results found",
+  "see_more": "See more",
+  "see_all": "See all",
+  "close": "Close",
+  "yes": "Yes",
+  "no": "No",
+  "required": "Required",
+  "optional": "Optional",
+
+  "nav": {
+    "home": "Home",
+    "painters": "Painters",
+    "how_it_works": "How it works",
+    "contact": "Contact",
+    "login": "Log in",
+    "register": "Sign up",
+    "dashboard": "Dashboard",
+    "profile": "My profile",
+    "logout": "Log out",
+    "my_quotes": "My quotes",
+    "my_bookings": "My bookings",
+    "my_works": "My works",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "admin": "Administration"
+  },
+
+  "roles": {
+    "CLIENT": "Client",
+    "PEINTRE": "Painter",
+    "ADMIN": "Administrator"
+  },
+
+  "validation_status": {
+    "EN_ATTENTE": "Awaiting validation",
+    "VALIDE": "Validated profile",
+    "REFUSE": "Profile rejected",
+    "SUSPENDU": "Account suspended",
+    "COMPLEMENT": "Additional information requested"
+  },
+
+  "footer": {
+    "rights": "All rights reserved",
+    "terms": "Terms of use",
+    "privacy": "Privacy policy",
+    "about": "About"
+  }
+}

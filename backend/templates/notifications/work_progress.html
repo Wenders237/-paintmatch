@@ -1,0 +1,11 @@
+{% extends "notifications/base_email.html" %}
+{% block content %}
+<h2>Bonjour {{ client_name }},</h2>
+<p><strong>{{ painter_name }}</strong> a mis à jour l'avancement de vos travaux.</p>
+<div class="card">
+  <p><strong>Étape :</strong> {{ step_label }}</p>
+  {% if description %}<p><strong>Détails :</strong> {{ description }}</p>{% endif %}
+  <p><strong>Avancement :</strong> {{ percentage }}%</p>
+</div>
+<a href="{{ app_url }}/client/bookings" class="btn">Voir le suivi</a>
+{% endblock %}

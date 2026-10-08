@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /painters
+Allow: /painters/
+Allow: /how-it-works
+
+# Pages privées — ne pas indexer
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /client/
+Disallow: /painter/
+Disallow: /admin/
+Disallow: /messages
+Disallow: /notifications
+Disallow: /auth/
+
+Sitemap: https://paintmatch.cm/sitemap.xml

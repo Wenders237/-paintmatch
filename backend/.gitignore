@@ -1,0 +1,38 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Variables d'environnement sensibles
+.env
+
+# Base de données SQLite
+*.sqlite3
+db.sqlite3
+
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers media uploadés (ne pas versionner)
+media/
+
+# Fichiers statiques collectés
+staticfiles/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (optionnel — les inclure en équipe)
+# */migrations/

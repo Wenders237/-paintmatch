@@ -1,0 +1,154 @@
+[
+  {
+    "model": "services.servicecategory",
+    "pk": 1,
+    "fields": {
+      "name": "Peinture intérieure",
+      "slug": "peinture-interieure",
+      "description": "Travaux de peinture à l'intérieur des bâtiments : murs, plafonds, boiseries.",
+      "icon": "home",
+      "is_active": true,
+      "order": 1
+    }
+  },
+  {
+    "model": "services.servicecategory",
+    "pk": 2,
+    "fields": {
+      "name": "Peinture extérieure",
+      "slug": "peinture-exterieure",
+      "description": "Travaux de peinture sur les façades et surfaces extérieures.",
+      "icon": "building",
+      "is_active": true,
+      "order": 2
+    }
+  },
+  {
+    "model": "services.servicecategory",
+    "pk": 3,
+    "fields": {
+      "name": "Ravalement de façade",
+      "slug": "ravalement-facade",
+      "description": "Nettoyage, réparation et peinture des façades de bâtiments.",
+      "icon": "layers",
+      "is_active": true,
+      "order": 3
+    }
+  },
+  {
+    "model": "services.servicecategory",
+    "pk": 4,
+    "fields": {
+      "name": "Peinture décorative",
+      "slug": "peinture-decorative",
+      "description": "Techniques décoratives : stuc, tadelakt, effets matières, patines.",
+      "icon": "palette",
+      "is_active": true,
+      "order": 4
+    }
+  },
+  {
+    "model": "services.servicecategory",
+    "pk": 5,
+    "fields": {
+      "name": "Traitement anti-humidité",
+      "slug": "traitement-anti-humidite",
+      "description": "Traitement des infiltrations, moisissures et remontées capillaires.",
+      "icon": "droplets",
+      "is_active": true,
+      "order": 5
+    }
+  },
+  {
+    "model": "services.servicecategory",
+    "pk": 6,
+    "fields": {
+      "name": "Imperméabilisation",
+      "slug": "impermeabilisation",
+      "description": "Application de produits imperméabilisants sur toitures et façades.",
+      "icon": "shield",
+      "is_active": true,
+      "order": 6
+    }
+  },
+  {
+    "model": "services.skill",
+    "pk": 1,
+    "fields": { "name": "Application d'enduit", "category": 1, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 2,
+    "fields": { "name": "Peinture au rouleau", "category": 1, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 3,
+    "fields": { "name": "Peinture au pinceau", "category": 1, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 4,
+    "fields": { "name": "Pose de papier peint", "category": 1, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 5,
+    "fields": { "name": "Traitement des fissures", "category": 1, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 6,
+    "fields": { "name": "Préparation des surfaces", "category": 1, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 7,
+    "fields": { "name": "Peinture de façade", "category": 2, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 8,
+    "fields": { "name": "Application de peinture microporeuse", "category": 2, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 9,
+    "fields": { "name": "Nettoyage haute pression", "category": 3, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 10,
+    "fields": { "name": "Réparation d'enduit de façade", "category": 3, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 11,
+    "fields": { "name": "Stuc vénitien", "category": 4, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 12,
+    "fields": { "name": "Effets matières", "category": 4, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 13,
+    "fields": { "name": "Tadelakt", "category": 4, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 14,
+    "fields": { "name": "Traitement anti-moisissures", "category": 5, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 15,
+    "fields": { "name": "Injection résine anti-humidité", "category": 5, "is_active": true }
+  },
+  {
+    "model": "services.skill",
+    "pk": 16,
+    "fields": { "name": "Application membrane d'étanchéité", "category": 6, "is_active": true }
+  }
+]
