@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: paintmatch-backend
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn --chdir backend paintmatch.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: paintmatch.settings.prod
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        value: "paintmatch-secret-key-2026-cameroun-secure-prod"
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com"
+      - key: CORS_ALLOWED_ORIGINS
+        value: "https://paintmatch.vercel.app"
+      - key: EMAIL_HOST_USER
+        value: "kiroseptembre@gmail.com"
+      - key: EMAIL_HOST_PASSWORD
+        value: "fwvmeipekkywbcjd"
+      - key: DEFAULT_FROM_EMAIL
+        value: "kiroseptembre@gmail.com"
+      - key: DATABASE_URL
+        value: "postgresql://paintmatch_db_user:haBKBe1ShvFUtE5u0vLDOtQfbJc8uJML@dpg-db41sgeb7d7c73a28j60-a/paintmatch_db"
+
+databases:
+  - name: paintmatch-db
+    databaseName: paintmatch
+    user: paintmatch

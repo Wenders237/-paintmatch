@@ -1,1 +1,1 @@
-web: cd backend && gunicorn paintmatch.wsgi:application
+web: gunicorn --chdir backend paintmatch.wsgi:application
